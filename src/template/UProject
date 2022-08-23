@@ -1,0 +1,7 @@
+"Modules": [
+	{
+		"Name": "{MODULE_NAME}",
+		"Type": "Runtime",
+		"LoadingPhase": "Default"
+	}
+]

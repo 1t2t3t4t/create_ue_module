@@ -1,0 +1,15 @@
+// {MODULE_NAME}.cpp
+
+#include "{MODULE_NAME}Module.h"
+
+IMPLEMENT_MODULE(F{MODULE_NAME}Module, {MODULE_NAME}Module);
+
+void F{MODULE_NAME}Module::StartupModule()
+{
+    // Put your module initialization code here
+}
+
+void F{MODULE_NAME}Module::ShutdownModule()
+{
+    // Put your module termination code here
+}

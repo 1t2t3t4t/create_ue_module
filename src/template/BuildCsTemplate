@@ -1,0 +1,9 @@
+using UnrealBuildTool;
+
+public class {MODULE_NAME} : ModuleRules
+{
+  public {MODULE_NAME}(ReadOnlyTargetRules Target) : base(Target)
+  {
+     PrivateDependencyModuleNames.AddRange(new string[] {"Core"});
+  }
+}
